@@ -1,0 +1,15 @@
+{
+  "data_uoa": "ck-rescue-hpc",
+  "data_uid": "24494b63f14e067d",
+  "data_alias": "ck-rescue-hpc",
+  "data_name": "ck-rescue-hpc",
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-web"
+      }
+    ], 
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-rescue-hpc"
+  }
+}

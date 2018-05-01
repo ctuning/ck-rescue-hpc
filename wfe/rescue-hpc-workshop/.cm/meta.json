@@ -1,0 +1,47 @@
+{
+  "global_keywords": "rescue-hpc workshop, portable workflows, reproducible workflows, customizable workflows, portable package managers, artifact sharing, workflow sharing",
+  "menu_desc": [
+    {
+      "html_end": "</div></div>",
+      "html_off_end": "</span>",
+      "html_off_start": "<span id=\"ck_menu_text_0\">",
+      "html_on_end": "</span>",
+      "html_on_start": "<span id=\"ck_menu_text_0_selected\">",
+      "html_start": "<div id=\"ck_menu_0\"><div style=\"padding:3px;margin-top:6px;\">",
+      "nodes": [
+        {
+          "id": "index2018",
+          "link": "$#wfe_url_prefix_page#$index2018",
+          "name": "About"
+        },
+        {
+          "id": "program2018",
+          "link": "$#wfe_url_prefix_page#$program2018",
+          "name": "Program"
+        },
+        {
+          "id": "motivation2018",
+          "link": "$#wfe_url_prefix_page#$motivation2018",
+          "name": "Motivation"
+        },
+        {
+          "id": "committees2018",
+          "link": "$#wfe_url_prefix_page#$committees2018",
+          "name": "Committees"
+        },
+        {
+          "id": "submission2018",
+          "link": "$#wfe_url_prefix_page#$submission2018",
+          "name": "Submission"
+        },
+        {
+          "id": "prior",
+          "link": "$#wfe_url_prefix_page#$prior_workshops",
+          "name": "Prior"
+        }
+      ]
+    }
+  ],
+  "share": " <!-- AddToAny BEGIN -->\n <div class=\"a2a_kit a2a_default_style\" style=\"margin:0 auto;font-size:12px;width:60px;\">\n  <a class=\"a2a_dd\" href=\"https://www.addtoany.com/share_save\">Share</a>\n </div>\n <script type=\"text/javascript\" src=\"//static.addtoany.com/menu/page.js\"></script>\n <!-- AddToAny END -->\n",
+  "template_file": "_resources/_template.html"
+}

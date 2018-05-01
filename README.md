@@ -1,4 +1,4 @@
-CK repository for ReSCuE workshop series
+CK repository for ResCuE workshop series
 ========================================
 
 [![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](http://cKnowledge.org)
@@ -31,7 +31,7 @@ Note, that it is possible to create a static website
 
 Just go to script/compile-website-rescue-hpc-workshop
 and run on Linux:
- > create_website.sh
+ > ./create_website.sh
 
 or on Windows:
  > create_website.bat

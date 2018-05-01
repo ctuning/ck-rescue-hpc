@@ -14,6 +14,7 @@ a {text-decoration: none}
 #ck_top
 {
 /* background-color:#00002F; */
+ font-family: "Arial Black";
  width:100%; 
  padding:0px;
  height:76px;
@@ -25,6 +26,7 @@ a {text-decoration: none}
 
 #ck_top_small
 {
+ font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
  color:#0f6faf;
  text-align:center;
  font-size:13px;

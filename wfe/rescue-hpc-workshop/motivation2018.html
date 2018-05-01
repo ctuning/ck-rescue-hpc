@@ -1,0 +1,122 @@
+<!--------------------------------------------------->
+Over the past 5 years we have initiated <a href="http://cTuning.org/ae">Artifact Evaluation initiative (AE)</a>
+at several premier conferences on parallel programming, architecture and code generation
+including PPoPP, PACT, CGO, IA3, SC.
+
+AE aims at encouraging researchers to share code,
+data and experimental workflows along with their published papers
+to let the community independently validate their experimental results.
+
+<p>
+The good news is that our community takes reproducibility initiative
+very seriously - nowadays nearly half of accepted papers submit artifacts.
+
+<p>
+The bad news is that nearly all research artifacts (e.g. benchmarks, data sets, tools, models)
+and experimental workflows are shared in some ad-hoc formats thus placing a heavy burden 
+on evaluators when installing, running and reproducing complex experiments.
+
+Even when publicly available, such artifacts can rarely be easily reused, customized
+and ported to other platforms.
+
+<p>
+Though the community started developing various tools 
+to solve above problems (<b><a href="http://github.com/ctuning/ck">Collective Knowledge</a></b>,
+<b><a href="http:/spack.io">spack</a></b>, and so on), these efforts could greatly benefit from
+joint coordination.
+
+<p>
+We organize this workshop to bring together HPC researchers
+and practitioners who are interested in developing
+reproducible, portable and customizable experimental workflows
+for HPC.
+
+We are particularly interested in contributions that describe
+state-of-the-art, pitfalls, comparisons and improvements
+to existing frameworks, benchmarks and datasets that can be
+used to run HPC workloads across multiple software versions
+and hardware architectures.
+
+Another aim of the workshop is to gather all this information
+in order to propose methodologies for reusing prior artifacts
+and accelerating the development of the next generation of HPC 
+software and hardware.
+
+<!--------------------------------------------------->
+<h2>Scope</h2>
+
+The ResCuE-HPC workshop will discuss in detail requirements,
+design and implementation of reproducible, portable and customizable
+experimental workflows to simplify and accelerate exploitation
+of novel ideas in HPC.
+
+<p>
+Such workflow frameworks must be able to <i>capture</i>,
+<i>share</i> and <i>accurately</i> replicate, replay and
+reproduce results from prior work in order to quickly
+validate, reuse, customize and build upon them (To
+make scientific breakthroughs it is necessary to be able
+to stand on the shoulders of giants, if we paraphrase Isaac
+Newton).
+
+Therefore topics of interest include, but are not limited to:
+
+<ul>
+
+<li> sharing artifacts (workloads, benchmarks, data sets, models,
+  tools), workflows and experiments in a customizable and
+  reusable way;
+
+<li> automatically and natively installing or rebuilding all software
+  dependencies required for shared experimental workflows
+  on different machines and environments;
+
+<li> automatically reporting and visualization of experimental
+  results including interactive articles to assist reproducible
+  initiative at SC;
+
+<li> continuously validating experiments from the past research
+  and report/record unexpected behavior (bugs, numerical
+  instability, variation of empirical results such as execution
+  time or energy measurements, etc) on new and evolving software and hardware stack;
+
+<li> establishing open repositories of common benchmarks, data
+  sets, tools and to accelerate knowledge exchange between
+  supercomputing centers;
+
+<li> investigating various statistical analysis and predictive
+  modeling techniques to improve reproducibility of empirical
+  experimental results.
+
+</ul>
+
+<!--------------------------------------------------->
+<h2>Expected outcome</h2>
+
+We plan to write a summary report after this workshop
+describing useful or novel ways to share, customize and reuse HPC artifacts 
+(such as benchmarks, data sets, models, tools, etc), workflows
+and experiments that will be published together with accepted
+papers in the proceedings.
+
+<p>
+Any outstanding issues reported at the workshop and the summary report 
+will be used to update the scope of the future editions of this workshop!
+
+We will also make this report available to reproducibility 
+and artifact evaluation chairs at SC, PPoPP, PACT, CGO and 
+to the ACM taskforce on reproducibility where we are founding members.
+
+<p>
+All ResCuE-HPC authors will be able to participate 
+in preparation of this report while trying to gradually 
+converge on a common experimental methodology and possible formats 
+for workflows and artifact sharing (meta information and API).
+
+We hope that such a practical approach will help the community 
+to gradually converge on a common experimental methodology and possible formats 
+for workflows and artifact sharing (meta information and API).
+
+This, in turn, should help our community quickly prototype research ideas 
+and thus dramatically accelerate development of the next generation 
+of HPC software and hardware while reusing all prior work.

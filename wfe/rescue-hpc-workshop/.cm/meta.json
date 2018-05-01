@@ -15,11 +15,6 @@
           "name": "About"
         },
         {
-          "id": "program2018",
-          "link": "$#wfe_url_prefix_page#$program2018",
-          "name": "Program"
-        },
-        {
           "id": "motivation2018",
           "link": "$#wfe_url_prefix_page#$motivation2018",
           "name": "Motivation"
@@ -33,6 +28,11 @@
           "id": "submission2018",
           "link": "$#wfe_url_prefix_page#$submission2018",
           "name": "Submission"
+        },
+        {
+          "id": "program2018",
+          "link": "$#wfe_url_prefix_page#$program2018",
+          "name": "Program"
         },
         {
           "id": "prior",

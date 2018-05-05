@@ -10,11 +10,6 @@
       "html_start": "<div id=\"ck_menu_0\"><div style=\"padding:3px;margin-top:6px;\">",
       "nodes": [
         {
-          "id": "index2018",
-          "link": "$#wfe_url_prefix_page#$index2018",
-          "name": "About"
-        },
-        {
           "id": "motivation2018",
           "link": "$#wfe_url_prefix_page#$motivation2018",
           "name": "Motivation"
@@ -23,6 +18,11 @@
           "id": "committees2018",
           "link": "$#wfe_url_prefix_page#$committees2018",
           "name": "Committees"
+        },
+        {
+          "id": "index2018",
+          "link": "$#wfe_url_prefix_page#$index2018",
+          "name": "Call for Papers"
         },
         {
           "id": "submission2018",

@@ -29,115 +29,120 @@
 <!------------------------------------------------>
 <h2>Introduction</h2>
 
-Experiment reproducibility and artifact sharing is gradually
-becoming a norm for publications at HPC conferences. 
-
-However, our <a href="$#ck_root_page_url#$motivation2018$#ck_page_suffix#$">recent experience</a>
-to reproduce experimental results 
-during Artifact Evaluation (AE)
-also highlighted <a href="https://www.slideshare.net/GrigoriFursin/enabling-open-and-reproducible-computer-systems-research-the-good-the-bad-and-the-ugly">multiple problems</a> at systems conferences
-including <a href="http://ctuning.org/ae/ppopp2018.html">PPoPP</a>, 
-<a href="http://ctuning.org/ae/cgo2018.html">CGO</a>
-and <a href="http://sc17.supercomputing.org/program/technical-papers/reproducibility-initiatives-for-technical-papers/">Supercomputing</a>.
-
-Ad-hoc experimental workflows, lack of common experimental
-methodology and tools, and the ever changing software/hardware
-stack all place a heavy burden on evaluators when installing,
-running and analyzing complex experiments. 
-
-Worse still, even when artifacts (e.g. benchmarks, data sets, models) 
-are shared, they are typically difficult to customize, port, reuse
-and build upon. 
+<p>
+Reproducibility is critical for the scientific process. Sharing the
+artifacts, data, and workflows associated with papers forces authors to
+turn a more careful eye to their own work, and it enables other
+scientists to easily validate and build on prior work. Over the past five
+years, many top-tier parallel computing conferences have
+established <a href="http://cTuning.org/ae">Artifact Evaluation (AE)</a>
+initiatives.  The community has bought in, and nearly half of accepted
+papers now include artifacts.
 
 <p>
-ResCuE-HPC is a multidisiplinary workshop bringing together
-HPC researchers and practitioners from academia and industry
-interested in discussing and developing common experimental
-methodologies, customizable workflow frameworks with common
-formats and APIs, and portable package managers for
-reproducible and reusable HPC.
-
-Our long-term goal is to automate <a href="http://cTuning.org/ae">artifact evaluation</a>
-at conferences and optimization competitions
-such as <a href="https://sc18.supercomputing.org/experience/studentssc/student-cluster-competition">CLUSTER</a>
-and <a href="http://cKnowledge.org/request">ReQuEST</a>,
-substitute rigid and ad-hoc benchmarks with a common software/hardware co-design framework,
-and collaboratively solve reproducibility issues in HPC.
+Unfortunately, recent attempts to
+reproduce experimental results show that
+<a href="https://www.slideshare.net/GrigoriFursin/enabling-open-and-reproducible-computer-systems-research-the-good-the-bad-and-the-ugly">many
+challenges</a> still remain.  A lack of common tools, along with
+increasingly deep stacks of dependencies, lead to ad-hoc workflows, and
+evaluators struggle to install, run, and analyze experiments.  These
+challenges are not uniuqe to artifact evaluation. Users of production
+simulation codes struggle to reproduce complex workflows, even on the
+same machine. Benchmark suites are notoriously complex to configure and
+work with, and reproducing their performance can be a daunting task.
+Indeed, nearly all shared artifacts still require manual steps and human
+intuition, which ultimately makes them difficult to customize, port,
+reuse, and build upon.
 
 <p>
-We therefore invite position papers (up to 4 pages) presenting novel 
-or existing practical solutions to:
+ResCuE-HPC will bring together HPC researchers and practitioners to
+propose and discuss ways to enable reproducible, portable and
+customizable experimental workflows for HPC.  We are interested in
+contributions that describe state-of-the-art and pitfalls for
+reproducibility, as well as improvements to existing frameworks,
+benchmarks and datasets that can be used to run HPC workloads across
+multiple software versions and hardware architectures.  Ultimately, we
+aim to automate artifact evaluation, benchmarking, and workflows with a
+common co-design framework, and collaboratively solve reproducibility
+issues in HPC.
+
+<h2>Topics of Interest</h2>
+<p>
+We invite position papers of up to 4 pages presenting novel or existing
+practical solutions to:
 
 <ul>
 <li> automate and unify artifact evaluation at HPC conferences;
 
-<li> share artifacts (workloads, benchmarks, data sets, models,
-  tools), workflows and experiments in a portable, customizable 
-  and reusable format;
+<li> share artifacts (workloads, benchmarks, data sets, models, tools),
+  workflows and experiments in a portable, customizable, and reusable
+  format;
 
 <li> automatically and natively install and rebuild all software
-  dependencies required for shared experimental workflows
-  on different machines and environments;
+  dependencies required for shared experimental workflows on different
+  machines and environments;
 
-<li> automatically report and visualize experimental
-  results including interactive articles to assist reproducible
-  initiative at SC and other conferences and journals;
+<li> automatically report and visualize experimental results including
+  interactive articles to assist reproducible initiative at SC and other
+  conferences and journals;
 
-<li> continuously validate experiments from the past research
-  and report/record unexpected behavior (bugs, numerical
-  instability, variation of empirical results such as execution
-  time or energy measurements, etc) on new and evolving software and hardware stack;
+<li> continuously validate experiments from past research and
+  report/record unexpected behavior (bugs, numerical instability,
+  variation of empirical results such as execution time or energy
+  measurements, etc) on new and evolving software and hardware stack;
 
-<li> establish open repositories of common benchmarks, data
-  sets and tools to accelerate knowledge exchange between
-  HPC centers;
+<li> establish open repositories of common benchmarks, data sets and
+  tools to accelerate knowledge exchange between HPC centers;
 
-<li> enable universal, customizable and multi-objective autotuning
+<li> enable universal, customizable and multi-objective auto-tuning
   and co-design of HPC software and hardware in a reproducible
   and reusable way;
 
 <li> unify statistical analysis and predictive
   modeling techniques to improve reproducibility of empirical
   experimental results.
-
 </ul>
 
 We also encourage submissions demonstrating practical use-cases
 of portable, customizable and reusable HPC workflows by connecting
-together existing tools including but not limited to 
-<b><a href="https://spack.io">Spack</a></b>, 
+together existing tools including but not limited to
+<b><a href="https://spack.io">Spack</a></b>,
 <b><a href="https://github.com/ctuning/ck">Collective Knowledge</a></b>,
 <b><a href="http://reprozip.org">ReproZip</a></b>,
 <b><a href="https://github.com/easybuilders/easybuild">EasyBuild</a></b>,
 <b><a href="https://www.commonwl.org">Common Workflow Language</a></b>
 and many others.
 
-<p>
-Authors of accepted papers will have an opportunity to introduce
-their techniques (10..15 minutes) and then participate 
-in an open discussion panel at the workshop. 
+<h2>Format</h2>
 
 <p>
-There will be no formal proceedings for the first edition 
-of this workshop to encourage on-site discussions! 
-Instead, all ResCuE-HPC authors will be able to participate 
-in preparation of the ResCuE-HPC report while trying to gradually 
-converge on a common experimental methodology and possible formats 
-for workflows and artifact sharing (meta information and API).
-
-We plan to make this report available to reproducibility 
-and artifact evaluation chairs at the leading HPC, ML and systems conferences
-as well as the <a href="https://www.acm.org/publications/task-force-on-data-software-and-reproducibility">ACM taskforce on reproducibility</a> where we are founding members.
+The day will be organized into sessions of 3-4 related papers. To spark
+discussion, Each author will briefly introduce their techniques (10-15
+minutes), and this will be followed by an open panel including the
+audience.
 
 <p>
-We hope that ResCuE-HPC workshop will help the community 
-to gradually converge on a common experimental methodology and possible formats 
-for workflows and artifact sharing (meta information and API).
+There will be no formal proceedings for the first edition of this
+workshop!  Instead, all ResCuE-HPC authors will be able to participate in
+preparation of a single ResCuE-HPC report. The report will focus on
+gradual convergence on a common experimental methodology, as well as
+possible formats for workflows and artifact sharing (meta information and
+API).
 
-This, in turn, should help our community unify and automate
-Artifact Evaluation, quickly prototype research ideas 
-and thus dramatically accelerate development of the next generation 
-of HPC software and hardware while reusing all prior work.
+We plan to make this report available to reproducibility and artifact
+evaluation chairs at the leading HPC, ML and systems conferences as well
+as
+the <a href="https://www.acm.org/publications/task-force-on-data-software-and-reproducibility">ACM
+task force on reproducibility</a> where we are founding members.
+
+<p>
+We hope that ResCuE-HPC workshop will help the community to gradually
+converge on a common experimental methodology and possible formats for
+workflows and artifact sharing (meta information and API).  This, in
+turn, should help our community unify and automate Artifact Evaluation,
+benchmarking, and workflows. The resulting ability to quickly prototype
+research ideas will dramatically accelerate development of the next
+generation of HPC software and hardware by reusing prior work.
 
 <!------------------------------------------------>
 <h2>Important dates</h2>
@@ -153,14 +158,24 @@ Check <a href="http://sc18.supercomputing.org">SC18 home page</a>
 for registration deadlines and other related information.
 
 <!------------------------------------------------>
-<h2>Submission</h2>
+<h2>Submissions</h2>
 
 <p>
-Please follow <b><a href="$#ck_root_page_url#$submission2018$#ck_page_suffix#$">this link</a></b> to prepare your submission.
+Authors must submit their position papers (max 4 pages)
+using double-column, single-spaced letter format
+<i><pre>\documentclass[10pt,letterpaper,twocolumn]{article}</pre></i> as
+PDF files.
+
+<p>
+All papers should be submitted via
+<a href="https://easychair.org/conferences/?conf=rescuehpc18">EasyChair</a>.
+
+Submissions are single-blind and will be peer-reviewed.
 
 <!------------------------------------------------>
 <h2>Questions</h2>
 
 <p>
-If you have any questions or comments, don't hesitate to contact <a href="mailto:grigori.fursin@cTuning.org;gamblin2@llnl.gov">workshop organizers</a>!
-  
+If you have any questions or comments, don't hesitate to
+contact <a href="mailto:grigori.fursin@cTuning.org;gamblin2@llnl.gov">workshop
+organizers</a>!

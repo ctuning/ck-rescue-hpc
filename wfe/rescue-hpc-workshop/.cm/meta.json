@@ -10,6 +10,11 @@
       "html_start": "<div id=\"ck_menu_0\"><div style=\"padding:3px;margin-top:6px;\">",
       "nodes": [
         {
+          "id": "program2018",
+          "link": "$#wfe_url_prefix_page#$program2018",
+          "name": "Program"
+        },
+        {
           "id": "committees2018",
           "link": "$#wfe_url_prefix_page#$committees2018",
           "name": "Committees"
@@ -23,11 +28,6 @@
           "id": "submission2018",
           "link": "$#wfe_url_prefix_page#$submission2018",
           "name": "Submission"
-        },
-        {
-          "id": "program2018",
-          "link": "$#wfe_url_prefix_page#$program2018",
-          "name": "Program"
         },
         {
           "id": "prior",
